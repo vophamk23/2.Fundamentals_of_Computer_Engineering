@@ -1,0 +1,36 @@
+Added Component: Designator=RA1(RAx4 1206 (3216))
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "BRAND"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PACKAGE"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PART NO"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "STOCK CODE"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SUPPLIER"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TYPE"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=SW?(SW/DIP4)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "BRAND"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PACKAGE"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PART NO"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "STOCK CODE"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SUPPLIER"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TYPE"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=SW1 Pin=RA1-1
+Added Pin To Net: NetName=SW2 Pin=RA1-2
+Added Pin To Net: NetName=SW3 Pin=RA1-3
+Added Pin To Net: NetName=SW4 Pin=RA1-4
+Added Pin To Net: NetName=3V3 Pin=RA1-5
+Added Pin To Net: NetName=3V3 Pin=RA1-6
+Added Pin To Net: NetName=3V3 Pin=RA1-7
+Added Pin To Net: NetName=3V3 Pin=RA1-8
+Added Pin To Net: NetName=GND Pin=SW?-1
+Added Pin To Net: NetName=GND Pin=SW?-2
+Added Pin To Net: NetName=GND Pin=SW?-3
+Added Pin To Net: NetName=GND Pin=SW?-4
+Added Pin To Net: NetName=SW4 Pin=SW?-5
+Added Pin To Net: NetName=SW3 Pin=SW?-6
+Added Pin To Net: NetName=SW2 Pin=SW?-7
+Added Pin To Net: NetName=SW1 Pin=SW?-8
+Added Member To Class: ClassName=Schematic_MDT Member=Component RA1 10k
+Added Member To Class: ClassName=Schematic_MDT Member=Component SW? SW DIP-4
+Added Member To Class: ClassName=Schematic_MDT Member=Component U1 TPS5430
+Added Room: Name=Schematic_MDT

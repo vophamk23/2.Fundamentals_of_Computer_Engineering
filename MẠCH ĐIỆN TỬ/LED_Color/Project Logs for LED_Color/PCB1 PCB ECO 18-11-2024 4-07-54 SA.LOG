@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=VCC Pin=LED1-2
+Removed Member From Class: ClassName=Sheet1 Member=LED1
+Added Component: Designator=LED(LED-BICOLOR-3MM)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=VCC Pin=LED-2
+Added Pin To Net: NetName=NetLED_1 Pin=LED-1
+Added Pin To Net: NetName=NetLED_1 Pin=R18-2
+Added Net: Name=NetLED_1
+Added Pin To Net: NetName=NetLED_3 Pin=LED-3
+Added Pin To Net: NetName=NetLED_3 Pin=R19-2
+Added Net: Name=NetLED_3
+Added Member To Class: ClassName=Sheet1 Member=Component LED RB LED
+Added Room: Name=Sheet1

@@ -1,0 +1,3 @@
+Change Component Designator: OldDesignator=SW? NewDesignator=SW2
+Added Member To Class: ClassName=Schematic_MDT Member=Component U1 TPS5430
+Added Room: Name=Schematic_MDT

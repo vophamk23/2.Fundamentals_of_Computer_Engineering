@@ -1,0 +1,36 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 04/25/2023 01:38:44 PM
+// Design Name: 
+// Module Name: work_space
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module work_space(enb,output_d,clk);
+    input clk,enb;
+    output output_d;
+    reg sig_delay, sec_delay;
+    always @(posedge clk) begin
+    sig_delay <= enb;
+    end
+    always @(posedge clk) begin
+    sec_delay <= sig_delay;
+    end
+    assign output_d = sig_delay & sec_delay;
+    
+endmodule
+

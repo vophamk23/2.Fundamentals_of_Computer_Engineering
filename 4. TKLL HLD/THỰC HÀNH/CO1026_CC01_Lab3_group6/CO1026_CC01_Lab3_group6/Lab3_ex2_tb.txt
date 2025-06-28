@@ -1,0 +1,43 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 05/07/2023 12:03:54 PM
+// Design Name: 
+// Module Name: lab3_tb
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module lab3_tb(
+
+    );
+    reg clk, enb;
+    wire output_d;
+    initial begin
+    forever #5 clk = ~clk;
+    end
+    initial begin
+    clk = 0;
+    
+    end
+    initial begin 
+    enb = 0;
+    #12
+    enb = 1;
+    #15 enb = 0;
+    #20 $stop;
+    end
+    work_space somthingg(enb,output_d,clk);
+endmodule

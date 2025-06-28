@@ -1,0 +1,26 @@
+`timescale 1ns / 1ps
+
+module workspce(btn,clk,output_led);
+input [1:0] btn;
+input clk;
+output reg [3:0] output_led; 
+reg [30:0] cnt;
+
+
+always @(posedge clk) begin
+if (btn == 0) begin
+ output_led = 4'b0011;
+end
+else if (btn ==1) begin
+ 
+  output_led <= {output_led[2:0],output_led[3]};
+
+
+end  
+else if (btn ==2) begin 
+  output_led <= {output_led[0],output_led[3:1]};
+ 
+end
+else if (btn ==4) output_led <= output_led;
+end
+endmodule
