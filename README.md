@@ -1,8 +1,7 @@
 # File Tree: 2.Co_So_Nganh-main
 
 Generated on: 8/12/2025, 4:24:02 PM
-Root path: `c:\Users\ASUS\Downloads\2.Co_So_Nganh-main\2.Co_So_Nganh-main`
-
+Root path: `https://github.com/vophamk23/2.Co_So_Nganh
 ```
 ├── 📁 1. Hệ Thống Số/
 │   ├── 📁 LAB 243/
